@@ -1,7 +1,7 @@
 from pyrogram import Client, Filters,Emoji
 from pyrogram.errors import FloodWait
 import time
-app = Client("mnnnnnnn",488556,"c722b7aadbf8b72109b2f96f30974c6d")
+app = Client("del",715451,"d2cba6f7bf5d1a45682da5bb9071a307")
 s = -1001146486274
 d = -1001378725482
 @app.on_deleted_messages(Filters.chat(s))
