@@ -1,4 +1,4 @@
-from pyrogram import Client, Filters,Emoji
+from pyrogram import Client, Filters
 from pyrogram.errors import FloodWait
 import time
 app = Client("del",715451,"d2cba6f7bf5d1a45682da5bb9071a307")
