@@ -1,7 +1,6 @@
 from pyrogram import Client, Filters,Emoji
 from pyrogram.errors import FloodWait
 import time
-from emoji import UNICODE_EMOJI
 app = Client("mnnnnnnn",488556,"c722b7aadbf8b72109b2f96f30974c6d")
 s = -1001146486274
 d = -1001378725482
