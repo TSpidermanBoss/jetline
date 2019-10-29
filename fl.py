@@ -4,9 +4,9 @@ from pyrogram.errors import FloodWait
 import asyncio
 async def main():
  msg_ids = {}
- app = Client(session_name="llx",api_id=814511,api_hash="44462f0f278503255d5cc30941b617a9",bot_token ="765108996:AAGYA2lsT6yw1q5SEx1PXesPWYdwb8RBivc")
- d = -1001315425757
- s = -1001203491308
+ app = Client("send",715451,"d2cba6f7bf5d1a45682da5bb9071a307")
+ s = -1001146486274
+ d = -1001378725482
  @app.on_message(Filters.chat(s) & Filters.text & ~Filters.edited)
  def forward(client,Message):
   words = ['dekho','TRUST','join','fix','😱','😳','👆','👇','☝️','https://','😂','🤔','pass','chase','link','suno','member','❓','loss','audio','open',"report",'paid','contact','baazigar','market','load','whatsapp','book','bhai','🐴','only','chut','tennis','teen','lavde','chutiya','bc','kya','LUND','WICKET LU','?','loda','telegram','chor',"kama","lakh",' id','स',"kitna"]
